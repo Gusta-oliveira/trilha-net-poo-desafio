@@ -8,7 +8,6 @@ namespace DesafioPOO.Models
             IMEI = "987654321";
             Memoria = 128;
         }
-        // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
             Console.WriteLine($"Instalando {nomeApp} no iPhone...");
